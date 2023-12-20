@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#app {
+  margin: 10px 20px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: beige;
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+li {
+  list-style-type: none;
+  font-size: 20px;
+  color: blueviolet;
+}
+
+.main {
+  text-align: center;
+  color: blueviolet;
+}
